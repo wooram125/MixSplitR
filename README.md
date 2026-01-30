@@ -27,7 +27,9 @@ MixSplitR helps you organize your digitized vinyl and CD collection. It works wi
 
 **Technical Requirement**: The songs need to have 2 seconds of silence in between them for the tool to recognize them as separate tracks. Fully mixed DJ performances with seamless transitions will not work properly.
 
-**KEEP YOUR API KEYS PRIVATE**: After first run, a `config.json` file is created containing your ACRCloud credentials. **DO NOT share this file, upload it to public repositories (GitHub, etc.), or post it online.** Anyone with access to your credentials can use your API quota. Keep `config.json` private and secure. If you accidentally expose it, regenerate your API keys in the ACRCloud console immediately. **The `config.json` file must remain in the same folder as the MixSplitR executable** - if you move the program to a new location, move the config file with it.
+**KEEP YOUR API KEYS PRIVATE**: After first run, a `config.json` file is created containing your ACRCloud credentials. **DO NOT share this file, upload it to public repositories (GitHub, etc.), or post it online.** Anyone with access to your credentials can use your API quota. Keep `config.json` private and secure. If you accidentally expose it, regenerate your API keys in the ACRCloud console immediately. 
+
+**The `config.json` file must remain in the same folder as the MixSplitR executable** - if you move the program to a new location, move the config file with it.
 
 ---
 
