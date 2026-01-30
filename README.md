@@ -28,6 +28,7 @@ DOWNLOAD LATEST RELEASES: https://github.com/chefkjd/MixSplitR/releases/tag/Exec
 - **Full Metadata Tagging** - Adds artist, title, and album information to each track
 - **Artwork Embedding** - Downloads and embeds high-quality album artwork
 - **Lossless FLAC Output** - Exports all tracks in high-quality FLAC format
+- **Multi-Format Support** - Works with WAV, FLAC, MP3, M4A, OGG, AAC, WMA, AIFF, and OPUS files
 - **Multi-File Processing** - Process multiple mix files in one batch
 - **Organized Output** - Automatically sorts tracks by artist into folders
 
@@ -72,7 +73,8 @@ ACRCloud provides the music recognition service that identifies your tracks. Her
 
 ### Step 2: Prepare Your Audio Files
 
-1. Place your digitized audio files (`.wav` or `.flac` format) from your personal collection in the same folder as the MixSplitR executable
+1. Place your digitized audio files in the same folder as the MixSplitR executable
+   - **Supported Formats**: WAV, FLAC, MP3, M4A, OGG, AAC, WMA, AIFF, OPUS
    - **Individual tracks**: Any songs under 8 minutes will be automatically recognized as single tracks
    - **Mixes/Recordings**: Longer recordings (8+ minutes) from vinyl, CDs, or other sources will be treated as mixes and split automatically
 2. For mixes, make sure there are clear gaps of silence between tracks (at least 2 seconds)
@@ -89,7 +91,7 @@ ACRCloud provides the music recognition service that identifies your tracks. Her
    - These credentials are saved in `config.json` and you won't need to enter them again
 
 2. **Processing Your Files**
-   - The program will automatically detect all `.wav` and `.flac` files in the folder
+   - The program will automatically detect all supported audio files in the folder
    - **Phase 1 - Smart Splitting**: 
      - Files under 8 minutes are recognized as single tracks (no splitting needed - saves time!)
      - Files 8+ minutes are detected as mixes and split into individual tracks
@@ -117,8 +119,9 @@ ACRCloud provides the music recognition service that identifies your tracks. Her
 Your Folder/
 ├── MixSplitR.exe           ← The program
 ├── config.json             ← Your API keys (created on first run)
-├── YourMix.wav             ← Your input files
+├── YourMix.wav             ← Your input files (any supported format)
 ├── AnotherMix.flac
+├── Track.mp3
 └── My_Music_Library/       ← Output folder (created automatically)
     ├── Artist Name 1/
     │   ├── folder.jpg      ← Album artwork
@@ -139,11 +142,13 @@ Your Folder/
 - Files under 8 minutes are instantly recognized as single tracks (no splitting)
 - Files 8+ minutes are automatically detected as mixes and split accordingly
 - Mix individual songs with mixes in the same folder for efficient batch processing
+- All supported formats (WAV, FLAC, MP3, M4A, OGG, AAC, WMA, AIFF, OPUS) can be processed together
 
 ### Audio Quality
 - Use high-quality source files (320kbps MP3 minimum, or lossless formats)
 - Avoid heavily compressed or low-quality recordings
 - Ensure clean recordings without excessive noise
+- Lossless formats (WAV, FLAC, AIFF) provide the best results
 
 ### Track Separation
 - Make sure there are clear gaps between tracks (at least 2 seconds of silence)
@@ -166,8 +171,8 @@ Your Folder/
 
 ## 🔧 Troubleshooting
 
-### "No files found"
-- Make sure your audio files are `.wav` or `.flac` format
+### "No audio files found"
+- Make sure your audio files are in a supported format: WAV, FLAC, MP3, M4A, OGG, AAC, WMA, AIFF, or OPUS
 - Place them in the same folder as MixSplitR.exe
 - Check that files aren't corrupted
 
@@ -207,8 +212,9 @@ Your Folder/
 
 ##  Technical Details
 
+- **Supported Input Formats**: WAV, FLAC, MP3, M4A, OGG, AAC, WMA, AIFF, OPUS
 - **Smart Detection**: Files under 8 minutes are treated as single tracks; 8+ minutes are treated as mixes
-- **Audio Format**: Splits and exports to FLAC (lossless compression)
+- **Audio Output Format**: Exports to FLAC (lossless compression)
 - **Silence Detection**: 2-second minimum silence, -40dB threshold (for mixes only)
 - **Sample Rate**: Uses 12-second samples from the middle of each track for identification
 - **Metadata Sources**: ACRCloud API + iTunes API fallback for artwork
@@ -218,7 +224,7 @@ Your Folder/
 
 ##  Workflow Summary
 
-1. Place `.wav` or `.flac` files from your personal collection in the MixSplitR folder (individual tracks or mixes - it detects automatically!)
+1. Place audio files from your personal collection in the MixSplitR folder (supports WAV, FLAC, MP3, M4A, OGG, AAC, WMA, AIFF, OPUS)
 2. Run MixSplitR.exe
 3. Enter ACRCloud credentials (first run only)
 4. Wait for Phase 1 (smart detection & splitting) and Phase 2 (identification & organization)
@@ -229,7 +235,10 @@ Your Folder/
 
 ##  Version History
 
-**v6.3** - Current Version
+**v6.3.1** - Current version
+-added multi-format support (WAV, FLAC, MP3, M4A, OGG, AAC, WMA, AIFF, OPUS)
+
+**v6.3**
 - Smart track detection (automatically detects single tracks vs mixes)
 - Major speed improvement for individual track processing
 - No more wasted time splitting files that don't need it
@@ -259,4 +268,4 @@ This tool is designed for organizing your personal music collection from digitiz
 
 ---
 
-**Happy Archiving!** 
+**Happy Archiving!**
