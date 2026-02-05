@@ -11,7 +11,7 @@ MixSplitR helps you organize your digitized vinyl and CD collection. It works wi
 -  **Audio Preview** — Hear tracks directly in the app to identify them by ear
 -  **5-Source Identification** — ACRCloud + MusicBrainz + iTunes + Deezer + Last.fm for maximum metadata
 
-## 📥 **DOWNLOAD:** [Gitlab Releases](https://gitlab.com/chefd/mixsplitr/-/releases)
+## 📥 **DOWNLOAD:** [Github Releases](https://github.com/chefkjd/MixSplitR/releases/tag/7.0)
 
 ---
 
@@ -689,8 +689,8 @@ Type 'delete' to remove source files (or press Enter to keep):
 
 ##  Links
 
-- **Releases:** https://gitlab.com/chefd/mixsplitr/-/releases
-- **Source Code:** https://gitlab.com/chefkjd/MixSplitR
+- **Releases:** https://github.com/chefkjd/MixSplitR/releases/tag/7.0
+- **Source Code:** https://github.com/chefkjd/MixSplitR
 - **Compiler Guide:** See `Compiler Guide.md` for building from source
 - **ACRCloud Console:** https://console.acrcloud.com
 - **Last.fm API:** https://www.last.fm/api/account/create
