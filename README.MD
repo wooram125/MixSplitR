@@ -13,7 +13,9 @@ It supports both:
 
 ---
 
+##   COMING SOON 2/7
 
+I'm just tightening up some features, will be out shortly!
 
 ## v7.1 Highlights
 
