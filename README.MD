@@ -5,7 +5,7 @@
 
 ### Mix Archival Tool by KJD
 
-MixSplitR helps you record, split, label, and organize your large music collection using multipoint audio fingerprinting with 5 metadata tagging sources being cross referenced with up to 7 total pipelines to proccess with, creating the most comprehensive metadata tagger and organizer out there, free! More toolbox features inside!
+MixSplitR helps you record, split, label, and organize your large music collection using multipoint audio fingerprinting with 5 metadata tagging sources being cross referenced with up to 7 total pipelines to process with, creating the most comprehensive metadata tagger and organizer out there, free! More toolbox features inside!
 
 It supports both:
 - Individual tracks
