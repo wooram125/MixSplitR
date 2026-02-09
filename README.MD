@@ -12,7 +12,7 @@ It supports:
 - Long recordings/mixes that need splitting
 
 ---
-### [Downloads](https://github.com/chefkjd/MixSplitR/releases)
+### [Download](https://github.com/chefkjd/MixSplitR/releases)
 
 
 ## v7.1 Highlights
