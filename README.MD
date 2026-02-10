@@ -24,7 +24,7 @@ It supports:
 ---
 # [Download](https://github.com/chefkjd/MixSplitR/releases)
 
-## [Did I save you some time? Help me pay for my large caffeine intake!](https://ko-fi.com/mixsplitr)
+
 
 
 ## v7.1 Highlights
@@ -216,6 +216,8 @@ Default music output path:
 - `~/Music/MixSplitR Library` (unless changed in Settings)
 
 ---
+
+## [Did I save you some time? Help me pay for my large caffeine intake!](https://ko-fi.com/mixsplitr)
 
 ## Privacy and Intended Use
 
