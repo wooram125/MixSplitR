@@ -24,7 +24,7 @@ It supports:
 ---
 # [Download](https://github.com/chefkjd/MixSplitR/releases)
 
-## [Did I save you some time? Support development here, It's much appreciated!](https://ko-fi.com/mixsplitr)
+## [Did I save you some time? Help me pay for my large caffeine intake!](https://ko-fi.com/mixsplitr)
 
 
 ## v7.1 Highlights
