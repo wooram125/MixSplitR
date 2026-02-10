@@ -17,6 +17,9 @@ It supports:
 
 ## v7.1 Highlights
 
+### AcoustID support!
+- Use acoustID to replace the need for ACRcloud or combine both for an extra deep catalog of music identification 
+
 ### End-to-End Workflow (Now Includes Recording)
 - Built-in system audio recording on Windows/macOS
 - Record, split, identify, review, and export in one tool
